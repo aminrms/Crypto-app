@@ -12,7 +12,7 @@ const CryptoContext = ({ children }) => {
         {
           headers: {
             "X-RapidAPI-Key":
-              "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+              "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
             "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
           },
           params: {
@@ -30,7 +30,6 @@ const CryptoContext = ({ children }) => {
     };
     fetchAPI();
   }, []);
-
   return (
     <CryptoContextProvider.Provider value={cryptos}>
       {children}

@@ -7,7 +7,7 @@ const getCoins = async (limit) => {
     "https://coinranking1.p.rapidapi.com/coins",
     {
       headers: {
-        "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
       params: {
@@ -29,7 +29,7 @@ const getCoinDetails = async (uuidKey) => {
     {
       params: { referenceCurrencyUuid: "yhjMzLPhuIDl", timePeriod: "24h" },
       headers: {
-        "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     }
@@ -40,7 +40,7 @@ const getGlobalStats = async (query) => {
   const response = await axios.get(`${BASE_URL}/${query}`, {
     params: { referenceCurrencyUuid: "yhjMzLPhuIDl" },
     headers: {
-      "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+      "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
       "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
     },
   });
@@ -59,7 +59,7 @@ const getCoinExchanges = async (query, limit) => {
         orderDirection: "desc",
       },
       headers: {
-        "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     }
@@ -78,7 +78,7 @@ const getCoinMarkets = async (query, limit) => {
         orderDirection: "desc",
       },
       headers: {
-        "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     }
@@ -97,7 +97,7 @@ const getExchanges = async (limit) => {
         orderDirection: "desc",
       },
       headers: {
-        "X-RapidAPI-Key": "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     }
@@ -116,7 +116,7 @@ const getMarkets = async (limit) => {
         orderDirection: "desc",
       },
       headers: {
-        "X-RapidAPI-Key": "5bb5b6888amsh907c0958b6ebf7fp1a95d3jsn4611d11b2289",
+        "X-RapidAPI-Key": "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
         "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
       },
     }

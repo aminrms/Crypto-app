@@ -34,6 +34,7 @@ import ToolbarCoinData from "./ToolbarCoin/ToolbarCoinData";
 // Components
 import CoinInfo from "./CoinInfo/CoinInfo";
 import Loader from "../Loader/Loader";
+
 const CoinDetails = ({ check, change }) => {
   const Coins = useContext(CryptoContextProvider);
   const params = useParams();
@@ -43,6 +44,7 @@ const CoinDetails = ({ check, change }) => {
   const [coinDetail, setCoinDetail] = useState({});
   const [coinExchanges, setCoinExchanges] = useState({});
   const [coinMarkets, setCoinMarkets] = useState({});
+  console.log(coinExchanges)
   useEffect(() => {
     axios
       .get(
@@ -56,7 +58,7 @@ const CoinDetails = ({ check, change }) => {
           },
           headers: {
             "X-RapidAPI-Key":
-              "851c2e8d29msh8785173d362396bp1931cbjsn5ffe97c9c380",
+              "17f885e099mshd881a219fafa7ebp150078jsn68c74ddc461c",
             "X-RapidAPI-Host": "coinranking1.p.rapidapi.com",
           },
         }
