@@ -1,0 +1,22 @@
+footer {
+  background-color: rgba(10, 10, 10, 0.1);
+  backdrop-filter: blur(5px);
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+  padding: 8px;
+  margin-top: 3rem;
+}
+
+footer .my-email {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 5px;
+}
+/* footer .my-email p {
+  transition: all 0.3s ease-in-out;
+  color: #fff;
+} */
+footer .my-email p:hover {
+  color: rgb(18, 89, 241);
+}

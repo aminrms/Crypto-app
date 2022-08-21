@@ -1,0 +1,25 @@
+.links-box {
+  list-style: none;
+  padding: 0.2rem 1.2rem;
+}
+.links-box li {
+  width: fit-content;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.links-box li a {
+  text-decoration: none;
+}
+.links-box li img {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.links-box li .MuiMenu-list::-webkit-scrollbar {
+  width: 0 !important;
+}

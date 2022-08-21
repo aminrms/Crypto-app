@@ -1,0 +1,44 @@
+.value-statistic-section {
+  width: 100%;
+}
+.value-statistic-section .values-box {
+  width: 100%;
+  /* padding: 0.5rem; */
+  list-style: none;
+}
+.value-statistic-section .values-box li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border-bottom: 1.5px solid rgb(223, 225, 252); */
+  padding: 0.95rem 0.6rem;
+}
+.value-statistic-section .values-box li:last-child {
+  border-bottom: none;
+}
+.value-statistic-section .values-box li div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+/* .value-statistic-section .values-box li div .icon {
+  font-size: 26px;
+} */
+.value-statistic-section .values-box li div h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.value-statistic-section .values-box li div .exclamation-icon {
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(233, 235, 255);
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+.value-statistic-section .values-box li:last-child {
+  border-bottom: none;
+}

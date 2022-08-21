@@ -1,0 +1,46 @@
+.supply-info-section {
+  width: 100%;
+}
+.supply-info-section .supply-box {
+  width: 100%;
+  /* padding: 0.5rem; */
+  list-style: none;
+  padding: 1rem 0.5rem;
+  margin-bottom: 0.5rem;
+  border-radius: 12px;
+  height: fit-content;
+}
+.supply-info-section .supply-box li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1.5px solid rgb(223, 225, 252);
+  padding: 1rem 0.6rem;
+}
+.supply-info-section .supply-box li a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.3rem;
+  color: #00b060;
+  font-weight: bold;
+  margin: 0.3rem;
+}
+.supply-info-section .supply-box li div h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+}
+.supply-info-section .supply-box li div .exclamation-icon {
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  background-color: rgb(233, 235, 255);
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+.supply-info-section .supply-box li:last-child {
+  border-bottom: none;
+}

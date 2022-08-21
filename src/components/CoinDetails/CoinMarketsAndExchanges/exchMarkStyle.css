@@ -1,0 +1,25 @@
+section {
+  width: 100%;
+}
+section .Box {
+  width: 100%;
+  width: 100%;
+  list-style:decimal;
+}
+section .Box li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.95rem 0.6rem;
+}
+section .Box li .names {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+section .Box li .prices {
+  display: grid;
+  place-items: center;
+  gap: 0.5rem;
+}

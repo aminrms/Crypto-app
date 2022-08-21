@@ -1,0 +1,31 @@
+.description {
+  overflow: hidden;
+  height: 200px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.description.show {
+  transition: all 0.3s ease-in-out;
+  height: fit-content;
+}
+.description.show::after {
+  height: 0;
+}
+.description h3 {
+  margin: 0.5rem 0;
+}
+.description p {
+  position: relative;
+  margin: 0.5rem 0;
+  line-height: 30px;
+  font-size: 0.95rem;
+}
+.description a {
+  text-decoration: none;
+  color: rgb(18, 89, 241);
+}
+.showMoreBtn:hover {
+  color: #fff;
+  box-shadow: unset;
+  background-color: rgb(18, 89, 241);
+}
